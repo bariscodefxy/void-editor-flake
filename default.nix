@@ -49,7 +49,7 @@ pkgs.stdenv.mkDerivation rec {
     [Desktop Entry]
     Name=Void Editor
     Comment=Open Source AI Code Editor
-    Exec=$out/bin/void
+    Exec=$out/bin/void --password-store=basic
     Icon=$out/resources/app/resources/linux/code.png
     Terminal=false
     Type=Application

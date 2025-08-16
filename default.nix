@@ -4,11 +4,11 @@
 
 pkgs.stdenv.mkDerivation rec {
   pname = "void-editor";
-  version = "1.99.30039";
+  version = "1.99.30044";
 
   src = pkgs.fetchurl {
     url = "https://github.com/voideditor/binaries/releases/download/${version}/Void-linux-x64-${version}.tar.gz";
-    sha256 = "sha256-1XzsybjQuT5pMfmSZtg17EW4Ym9uwYVjFj0kvpyciCA=";
+    sha256 = "sha256-e+uXS1Jxa+dzl+Qg4MEDYl7XFFNlOT7O96oWB2bAagQ=";
   };
 
   dontUnpack = true;
